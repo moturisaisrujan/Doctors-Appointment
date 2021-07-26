@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctorsappointment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User.StatusOfAppointment"></activity>
+        <activity android:name=".User.UserAppointments" />
+        <activity android:name=".Doctor.CurrentToken" />
+        <activity android:name=".User.Status" />
+        <activity android:name=".User.BookAppointment" />
+        <activity android:name=".User.Doctors_List" />
+        <activity android:name=".Admin.Find" />
+        <activity android:name=".Admin.Remove" />
+        <activity
+            android:name=".Admin.AddDoctor"
+            android:parentActivityName=".Admin.AdminModule" />
+        <activity
+            android:name=".Doctor.DoctorModule"
+            android:noHistory="true" />
+        <activity android:name=".User.UserModule" />
+        <activity
+            android:name=".SignUpActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Admin.AdminModule" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

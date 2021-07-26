@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/text"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="horizontal">
+    <LinearLayout android:layout_width="wrap_content"
+        android:id="@+id/details"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/hospital"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/specialization"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hospital"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/check_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Check Status"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:background="@color/teal_200"
+        />
+</RelativeLayout>

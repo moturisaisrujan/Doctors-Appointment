@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Doctors Appointment</string>
+    <string name="user">User</string>
+    <string name="doctor">Doctor</string>
+    <string name="admin">Admin</string>
+    <string name="email">EMAIL ID</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">Log In</string>
+    <string name="google">Google</string>
+    <string name="signUp">Sign Up</string>
+    <string name="username">USER NAME</string>
+    <string name="dont">Don\'t have an account</string>
+    <string name="hi_admin">Hi Admin!!</string>
+    <string name="add">Add Doctor</string>
+    <string name="remove">Remove Doctor</string>
+    <string name="find">Find Doctor</string>
+    <string name="speciality">Speciality</string>
+    <string name="experience">Experience (Years)</string>
+    <string name="name">Name</string>
+    <string name="hospital">Hospital</string>
+    <string name="location">Location</string>
+    <string name="fees">Consultant Fees</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string-array name="specialities">
+        <item>Select Speciality</item>
+        <item>General Physician</item>
+        <item>Gynecologist</item>
+        <item>Orthopedic</item>
+        <item>Pediatrician</item>
+        <item>Dentist</item>
+        <item>Dermatologist</item>
+        <item>Ophthalmologist</item>
+        <item>Cardiologist</item>
+        <item>ENT specialist</item>
+        <item>Endocrinologist</item>
+        <item>Psychiatrist</item>
+        <item>Urologist</item>
+    </string-array>
+    <string name="title_activity_book_appointment">BookAppointment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
